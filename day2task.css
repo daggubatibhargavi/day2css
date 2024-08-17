@@ -1,0 +1,46 @@
+body {
+  background-image: url("./teaimage.jpg");
+  background-size: cover;
+}
+.image {
+  object-fit: contain;
+  width: 800px;
+  box-shadow: 2px 2px 2px white;
+}
+.image1 {
+  object-fit: scale-down;
+  width: 800px;
+  box-shadow: 2px 2px 2px white;
+}
+.image2 {
+  object-fit: fill;
+  width: 800px;
+  box-shadow: 2px 2px 2px white;
+}
+h1 {
+  font-size: 20px;
+  font-family: cursive;
+  font-weight: 800;
+  font-style: italic;
+  background-color: blueviolet;
+}
+.rtl {
+  text-decoration: double;
+  text-shadow: 2px 2px 2px green;
+  text-transform: uppercase;
+  direction: ltr;
+  text-decoration-line: overline;
+}
+.ltr {
+  text-decoration: double;
+  text-shadow: 2px 2px 2px red;
+  text-transform: uppercase;
+  direction: rtl;
+  text-decoration-line: overline;
+}
+.lorem {
+  background-image: linear-gradient(to right, red, green, yellow);
+  white-space: inherit;
+  width: 40%;
+  box-shadow: 2px 2px 2px red;
+}
